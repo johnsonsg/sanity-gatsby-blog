@@ -1,12 +1,12 @@
 import * as styles from "./blog-post-preview.module.css";
-import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
+import { buildImageObj, cn, getBlogUrl } from "../../lib/helpers";
 import { Link } from "gatsby";
-import PortableText from "./portableText";
+import PortableText from "../portableText";
 import React from "react";
 import { format } from "date-fns";
-import { imageUrlFor } from "../lib/image-url";
+import { imageUrlFor } from "../../lib/image-url";
 
-import { responsiveTitle3 } from "./typography.module.css";
+import { responsiveTitle3 } from "../typography.module.css";
 
 function BlogPostPreview(props) {
   return (

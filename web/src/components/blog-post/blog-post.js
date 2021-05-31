@@ -1,11 +1,11 @@
 import * as styles from "./blog-post.module.css";
 import { differenceInDays, formatDistance, format } from "date-fns";
-import AuthorList from "./author-list";
-import Container from "./container";
-import PortableText from "./portableText";
+import AuthorList from "../author/author-list";
+import Container from "../container/container";
+import PortableText from "../portableText";
 import React from "react";
-import { buildImageObj } from "../lib/helpers";
-import { imageUrlFor } from "../lib/image-url";
+import { buildImageObj } from "../../lib/helpers";
+import { imageUrlFor } from "../../lib/image-url";
 
 function BlogPost(props) {
   const {

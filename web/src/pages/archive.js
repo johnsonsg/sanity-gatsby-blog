@@ -1,5 +1,5 @@
-import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
-import Container from "../components/container";
+import BlogPostPreviewGrid from "../components/blog-post/blog-post-preview-grid";
+import Container from "../components/container/container";
 import GraphQLErrorList from "../components/graphql-error-list";
 import Layout from "../containers/layout";
 import React from "react";

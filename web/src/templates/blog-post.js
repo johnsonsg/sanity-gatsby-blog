@@ -1,9 +1,9 @@
 import { graphql } from "gatsby";
-import BlogPost from "../components/blog-post";
+import BlogPost from "../components/blog-post/blog-post";
 import React from "react";
 import GraphQLErrorList from "../components/graphql-error-list";
 import Layout from "../containers/layout";
-import Container from "../components/container";
+import Container from "../components/container/container";
 import SEO from "../components/seo";
 import { toPlainText } from "../lib/helpers";
 
